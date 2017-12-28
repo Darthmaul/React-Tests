@@ -10,7 +10,6 @@ class Home extends React.Component {
                 <h1>{pageData.title.rendered}</h1>
 
                 <div dangerouslySetInnerHTML={{__html: pageData.excerpt.rendered}} />
-                <div>{pageData.acf.text}</div>
             </div>
         );
     }
